@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--nav-background);
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: inherit;
+}
+
+li {
+    color: var(--warm-black);
+}
+
+a{
+    /* To be able to see the action area  */
+    /* background: red; */
+    border-radius: 2rem;
+    padding: 1rem;
+}
