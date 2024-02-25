@@ -28,9 +28,6 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
   color: rgb(var(--foreground));
   background-color: var(--background);
 }
@@ -42,6 +39,19 @@ a {
 
 p {
   color: var(--warm-black);
+}
+
+h1 {
+  color: var(--warm-black);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: dark) {
