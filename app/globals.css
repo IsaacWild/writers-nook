@@ -7,9 +7,12 @@
   
   /* Colour ref's go here */
   --black: #000000;
-  --warm-black: #020403;
-  --background: rgb(230, 225, 208);
-  --nav-background: rgb(226, 190, 127);
+  --warm-black: #222222;
+  --background: #FFECD6;
+  --nav-background: #FFE2C2;
+  --warning: #945D5E;
+  --accept: #709176;
+  --accent: #64B6AC;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,7 +53,9 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
+  padding-top: 90px;
+  gap: 1.5rem;
   min-height: 100vh;
 }
 
