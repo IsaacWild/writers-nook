@@ -7,9 +7,9 @@ export default function NavMenu() {
         <nav className={styles.nav}>
             <Link href={'/'}>
                 <Image
-                    src="/next.svg"
-                    width={200}
-                    height={200}
+                    src="/menu.svg"
+                    width={40}
+                    height={40}
                     alt="Next Logo"
                 />
             </Link>
