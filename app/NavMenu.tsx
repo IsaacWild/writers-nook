@@ -18,6 +18,9 @@ export default function NavMenu() {
                     <Link href={'/about'}>About</Link>
                 </li>
                 <li>
+                    <Link href={'/press'}>Press</Link>
+                </li>
+                <li>
                     <Link href={'/updates'}>Updates</Link>
                 </li>
                 <li>
