@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function NavMenu() {
     return(
-        <nav className={styles.nav}>
+        <nav className={styles.navBar}>
             <Link href={'/'}>
                 <Image
                     src="/menu.svg"
@@ -13,8 +13,8 @@ export default function NavMenu() {
                     alt="Next Logo"
                 />
             </Link>
-            <ul>
-                <li>
+            <ul className={styles.navList}>
+                <li className={styles.navItem}>
                     <Link href={'/about'}>About</Link>
                 </li>
                 <li>
