@@ -1,4 +1,4 @@
-nav {
+.navBar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,20 +12,13 @@ nav {
     z-index:  1000; /* Add this line to ensure the nav bar is above other content */
 }
 
-ul {
+.navList {
     list-style: none;
     display: flex;
     width: 60%;
     justify-content: inherit;
 }
 
-li {
+.navItem {
     color: var(--warm-black);
-}
-
-a{
-    /* To be able to see the action area  */
-    /* background: red; */
-    border-radius: 2rem;
-    padding: 1rem;
 }
