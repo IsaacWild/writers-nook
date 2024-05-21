@@ -116,8 +116,8 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
-  padding-top: 90px;
+  padding: var(--spacing-500) var(--spacing-200);
+  padding-top: 100px;
   gap: 1.5rem;
   min-height: 100vh;
 }

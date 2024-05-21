@@ -4,16 +4,20 @@
     grid-template-columns: 1fr 2fr;
 }
 
+.imageWrapper{
+    background: center / contain no-repeat url("../../public/welcomeSplash.png");
+}
+
 .container p {
     /* border: green dotted; */
     font-size: var(--text-medium);
-    text-align: center;
+    /* text-align: center; */
 }
 
 .wrapper{
     /* border: solid goldenrod; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: var(--spacing-400);
+    align-items: center;
 }
