@@ -13,6 +13,69 @@
   --warning: #945D5E;
   --accept: #709176;
   --accent: #64B6AC;
+
+  /* Font Sizes */
+  /* Desktop */
+  --text-xxx-large: 5.75rem;
+  --text-xx-large: 4.75rem;
+  --text-x-large: 4rem;
+  --text-large: 3rem;
+  --text-medium: 2rem;
+  --text-small: 1.75rem;
+  --text-x-small: 1.25rem;
+  --text-xx-small: 1.125rem;
+  --text-xxx-small: 1rem;
+
+  /* Bare Radiei */
+  --radius-25: 2px;
+  --radius-50: 4px;
+  --radius-100: 8px;
+  --radius-150: 12px;
+  --radius-200: 16px;
+  --radius-300: 24px;
+  --radius-400: 32px;
+  --radius-450: 36px;
+  --radius-500: 40px;
+  --radius-600: 48px;
+  --radius-2000: 160px;
+  --radius-full: 100vmax;
+
+  /* Border Radius's */
+  --radius-xxs: var(--radius-50);
+  --radius-xs: var(--radius-100);
+  --radius-s: var(--radius-150);
+  --radius-m: var(--radius-300);
+  --radius-l: var(--radius-450);
+  --radius-xl: var(--radius-500);
+  --radius-xxl: var(--radius-600);
+  --radius-full: var(--radius-2000);
+
+  /* Spacing */
+  --spacing-0: 0rem;
+  --spacing-25: 0.125rem;
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+  --spacing-250: 1.25rem;
+  --spacing-300: 1.5rem;
+  --spacing-350: 1.75rem;
+  --spacing-400: 2rem;
+  --spacing-450: 2.25rem;
+  --spacing-500: 2.5rem;
+  --spacing-550: 2.75rem;
+  --spacing-600: 3rem;
+  --spacing-650: 3.25rem;
+  --spacing-700: 3.5rem;
+  --spacing-800: 4rem;
+  --spacing-900: 4.5rem;
+  --spacing-1000: 5rem;
+  --spacing-1200: 6rem;
+  --spacing-1400: 7rem;
+  --spacing-1500: 7.5rem;
+  --spacing-1600: 8rem;
+  --spacing-1800: 9rem;
+  --spacing-2000: 10rem;
 }
 
 @media (prefers-color-scheme: dark) {
