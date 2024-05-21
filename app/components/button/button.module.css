@@ -1,0 +1,15 @@
+.buttonContainer {
+    background-color: var(--accept);
+    color: var(--warm-black);
+    font-size: var(--text-x-large);
+    border-radius: var(--radius-l);
+    width: fit-content;
+    padding: var(--spacing-250);
+    justify-self: center;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.buttonContainer:hover {
+    background-color: var(--accent);
+}

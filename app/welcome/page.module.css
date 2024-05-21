@@ -1,4 +1,19 @@
 .container {
+    /* border: red dotted; */
     display: grid;
-    gap: 2px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container p {
+    /* border: green dotted; */
+    font-size: var(--text-medium);
+    text-align: center;
+}
+
+.wrapper{
+    /* border: solid goldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-400);
 }
